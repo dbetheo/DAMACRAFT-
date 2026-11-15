@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key><string>DamaCraft</string>
+    <key>CFBundleDisplayName</key><string>DamaCraft</string>
+    <key>CFBundleIdentifier</key><string>fr.dama.damacraft</string>
+    <key>CFBundleVersion</key><string>__VERSION__</string>
+    <key>CFBundleShortVersionString</key><string>__VERSION__</string>
+    <key>CFBundleExecutable</key><string>DamaCraft</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+    <key>CFBundleIconFile</key><string>DamaCraft</string>
+    <key>CFBundleDevelopmentRegion</key><string>fr</string>
+    <key>LSMinimumSystemVersion</key><string>14.0</string>
+    <key>LSApplicationCategoryType</key><string>public.app-category.developer-tools</string>
+    <key>NSHighResolutionCapable</key><true/>
+    <key>NSPrincipalClass</key><string>NSApplication</string>
+    <key>NSHumanReadableCopyright</key><string>© DamaCraft</string>
+    <!-- Indispensable : sinon macOS peut tuer l'app sans laisser le temps d'arrêter le serveur Minecraft. -->
+    <key>NSSupportsAutomaticTermination</key><false/>
+    <key>NSSupportsSuddenTermination</key><false/>
+</dict>
+</plist>

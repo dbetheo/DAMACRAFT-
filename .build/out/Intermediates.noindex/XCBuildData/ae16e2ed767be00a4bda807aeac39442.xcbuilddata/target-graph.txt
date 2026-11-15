@@ -1,4 +1,0 @@
-Target dependency graph (2 targets)
-Target 'AllExcludingTests' in project 'Aggregate'
-➜ Explicit dependency on target 'DamaCraft-product' in project 'DamaCraft'
-Target 'DamaCraft-product' in project 'DamaCraft' (no dependencies)
